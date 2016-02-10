@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#444444"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#666999"
+        android:id="@+id/myprogressimageview"
+        android:onClick=""
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/myprogressimageview"
+        android:weightSum="3"
+        android:layout_marginLeft="5dp"
+        android:padding="5dp"
+
+        >
+        <TextView
+            android:layout_width="020dp"
+            android:layout_weight="1"
+            android:textColor="#dddddd"
+            android:text="Progress's Title"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:textColor="#dddddd"
+            android:id="@+id/myprogresstitle"
+            android:text="Progress's Title"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/myprogressdescription"
+        android:padding="10dp"
+        android:textColor="#dddddd"
+        android:layout_below="@+id/myprogressimageview"
+        android:text="Progress's Description here"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/myprogressDate"
+        android:padding="10dp"
+        android:layout_below="@+id/myprogressdescription"
+        android:textColor="#dddddd"
+        android:text="Progress's Date here"
+        />
+    </RelativeLayout>
+</RelativeLayout>

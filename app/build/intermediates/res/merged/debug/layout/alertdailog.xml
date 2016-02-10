@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+    android:background="#111111"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Enter a project Name:"
+        android:textStyle="bold"
+        android:textColor="#eeeeee"
+        android:textSize="20sp"
+        android:id="@+id/alerttv"
+        android:padding="10dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:textColorHint="#eeeeee"
+        android:hint = "New Project Name Here.."
+        android:layout_below="@+id/alerttv"
+        />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Let's do it..."
+            android:id="@+id/lets_do_it_button"
+            />
+</LinearLayout>
+<!-- From: file:/home/piyush/Documents/HomeLiv_admin/app/src/main/res/layout/alertdailog.xml -->

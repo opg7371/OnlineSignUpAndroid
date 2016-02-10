@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:xlmns="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Login"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_gravity="bottom"
+        android:text="Checking..."
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:background="#ff0"
+        android:id="@+id/tvIsConnected"
+        android:layout_marginTop="0dp"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="5"
+        android:maxLines="1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your Credentials:"
+        android:textAlignment="center"
+        android:textSize="33sp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/firstlayout"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        >
+    </LinearLayout>
+
+    <EditText
+        android:layout_weight="1"
+        android:layout_below = "@+id/firstlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email1"
+        android:maxLines="1"
+        android:hint="E-mail Address "
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass1"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:inputType="textPassword"
+        android:hint="Password"
+        />
+    <CheckBox
+        android:layout_weight="1"
+        android:textStyle = "bold|italic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save my Details.."
+        android:id="@+id/checkbox"
+        android:onClick="checkbox"
+        />
+     <Button
+        android:layout_marginTop="40dp"
+        android:layout_height="50dp"
+        android:layout_width="match_parent"
+        android:text="Login me"
+        android:onClick="submitclick"
+        android:id="@+id/submitlogin"
+        />
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold|italic"
+            android:maxLines="1"
+            android:layout_height="wrap_content"
+            android:text="Register Here."
+            android:id="@+id/tvRegisterLink"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/home/piyush/Documents/HomeLiv_admin/app/src/main/res/layout/login.xml -->

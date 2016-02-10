@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#111111"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <android.support.v4.widget.Space
+        android:layout_width="fill_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#EEEEEE"
+        android:text= "  PROJECT TEST ___"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        />
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="70dp" />
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:background="#f0f0f0"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text= "SCOPE OF WORK"
+        android:layout_marginTop="15dp"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/scopeofwork"
+        android:textAlignment="center"
+        android:autoText="true"
+
+        android:textStyle="bold|italic"
+        android:layout_gravity="center_vertical"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center_vertical"
+        android:textSize="25sp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/drawings"
+
+        android:layout_height="50dp"
+        android:text= "DRAWINGS"
+        android:textStyle="bold|italic"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold|italic"
+        android:text= "BOQ"
+        android:textSize="25sp"
+        android:id="@+id/boq"
+
+        android:layout_marginLeft="10dp"
+         android:layout_marginTop="15dp"
+        android:drawableBottom="#FF00"
+        android:layout_gravity="center_vertical"
+        android:backgroundTintMode="screen" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:text= "PROGRESS"
+        android:layout_marginLeft="10dp"
+         android:layout_marginTop="10dp"
+        android:textSize="25sp"
+        android:id="@+id/progress"
+        android:textStyle="bold|italic"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text = "Choose Another Project.."
+            android:textAlignment="center"
+            android:layout_marginLeft="80dp"
+            android:id="@+id/go_back"
+            android:onClick="project_test_back"
+            android:textColor="#111111"
+            android:layout_alignParentBottom = "true"
+            />
+</LinearLayout>
+
+</LinearLayout>
+<!-- From: file:/home/piyush/Documents/HomeLiv_admin/app/src/main/res/layout/project_test.xml -->

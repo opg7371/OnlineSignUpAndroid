@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:weightSum = "12"
+tools:context=".scopeofwork"
+    >
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Scope Of Work."
+    android:textStyle="bold|italic"
+    android:textSize="40sp"
+    android:textColor="#000000"
+    android:textAlignment="center"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:padding="10dp"
+
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_margin="11dp"
+    android:textColor="#111111"
+    android:layout_weight="10"
+    android:background="#BBBBBB"
+    android:id="@+id/etscope_of_work"
+
+    >
+
+
+</EditText>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:layout_marginBottom="0dp"
+
+        >
+        <ImageButton
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_action_edit"
+            android:text="Edit"
+            android:id="@+id/edit_scopeof_work"
+            android:cropToPadding="true"
+            android:background="@drawable/roundcorner"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="2"
+    android:layout_marginBottom="0dp"
+
+    >
+    <ImageButton
+        android:layout_height="40dp"
+        android:layout_width="40dp"
+        android:src="@drawable/ic_action_save"
+        android:text="Save"
+        android:id="@+id/save_scope_of_work"
+        android:cropToPadding="true"
+        android:background="@drawable/roundcorner"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>
+
+
+</LinearLayout>
+</LinearLayout><!-- From: file:/home/piyush/Documents/HomeLiv_admin/app/src/main/res/layout/scope_of_work.xml -->

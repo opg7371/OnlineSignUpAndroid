@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/myprogressimagecreate"
+        android:onClick="myprogress_image"
+        android:background="#666999"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Progress's Title"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:hint="Progress's Title"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:hint="Progress's Description here"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_weight="3"
+        android:layout_alignParentBottom= "true"
+        android:layout_marginBottom="0dp"
+
+        >
+        <ImageButton
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/ic_action_save"
+            android:text="Logout"
+            android:id="@+id/add_new"
+            android:cropToPadding="true"
+            android:background="@drawable/roundcorner"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save this Progress."
+            android:layout_marginLeft="100dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold|italic"
+            />
+    </LinearLayout>
+</LinearLayout>
